@@ -1,0 +1,67 @@
+.Trevas
+{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+}  
+
+
+
+.DoRock
+{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 50px;
+   border-radius: 80px;
+   border-style:groove;
+   border-color: white;
+}
+
+button
+{
+    border-radius: 60px;
+    border-color: white;
+    background-color: black;
+    color: white;
+}
+
+input
+{
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.input-field
+{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+label
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  transform: translateY(18px);
+  transition: .25s ease-in-out;
+}
+
+input:focus
+{
+  border-bottom: 2px solid #d60404;
+  box-shadow: 0 1px 0 0 #d60404;
+  
+}
+
+input:focus + label
+{
+  transform: translateY(-14px) scale(.8);
+  color: #d60404;
+  font-weight: bold;
+}
