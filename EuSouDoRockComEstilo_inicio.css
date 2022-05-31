@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     list-style: none;
+    justify-content: space-evenly;
 }
 
 .footer
@@ -21,11 +22,6 @@ h5
  color: white;
  margin: 0;
  padding: 40px;
-}
-
-html
-{
-    padding-bottom: 100%;
 }
 
 body
