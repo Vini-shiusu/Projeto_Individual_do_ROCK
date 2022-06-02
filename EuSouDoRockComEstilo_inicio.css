@@ -7,10 +7,42 @@
     justify-content: space-evenly;
 }
 
-.footer
+.li_letra
 {
- background-color: black;
- color: white;
+    font-family: bold;
+}
+
+.banner
+{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1401/guitar_music_strings_bass-Widescreen_Wallpaper_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    background-blend-mode: darken;
+    overflow-x: hidden;
+}
+
+.banner .container_banner
+{
+    height: 400px;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+}
+
+.BemVindo
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
 }
 
 h5
@@ -24,7 +56,43 @@ h5
  padding: 40px;
 }
 
-body
-.a{
-    height: 800px;
+.div_footer2
+{
+    margin: 0px;
+    margin-top: 390px;
+    z-index: 1;
+}
+
+.header
+{
+    margin: 0px;
+}
+
+.container
+{
+    margin: 0px;
+}
+
+.info_siteBack
+{
+    background-color: azure;
+    height: 390px;
+    position: absolute;
+    z-index: 0;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.info_site
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 110px;
 }

@@ -5,6 +5,28 @@
     justify-content: space-between;
     list-style: none;
     justify-content: space-evenly;
+    background-color: black;
+}
+
+h5
+{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ background-color: black;
+ color: white;
+ margin: 0;
+ padding: 40px;
+}
+
+h1
+{
+     color: #fff;
+}
+
+li
+{
+     color: #d60404;
 }
 
 .Trevas
@@ -16,10 +38,9 @@
     margin-top: 10%;
 }  
 
-
-
 .DoRock
 {
+    display: flex;
     position: absolute;
     justify-content: center;
     align-items: center;
