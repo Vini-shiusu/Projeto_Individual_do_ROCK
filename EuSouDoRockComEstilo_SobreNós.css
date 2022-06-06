@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+   background-repeat: no-repeat;
+   background-size: cover;
+
+   background-attachment: fixed;
+   position: relative;
+
+   background-blend-mode: darken;
+   overflow-x: hidden;
+}
+
+h1
+{
+    display: flex;
+    justify-content: center;
+
+    margin: 5rem 0 5rem 0;
+
+    font-family: heebo;
+    font-size: 40px;
+}
+
+.star
+{
+    width: 20px;
+}
+
+.card .user
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    max-width: 980px;
+
+    margin: 0 auto;
+
+    grid-gap: 40px;
+}
+
+.card
+{
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 35px 40px;
+
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.24);
+}
+
+.card h3
+{
+    font-family: rubick;
+    margin-bottom: 5px;
+}
+
+p
+{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+
+    font-size: 18px;
+}
+
+.NavegandoNoRock
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.li_letra
+{
+    font-family: bold;
+}
+
+.texto
+{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Roboto;
+
+    font-size: 40px;
+
+    justify-content: center;
+
+    color: rgb(226, 72, 98);
+}
+
+.back
+{
+    background-color: #000;
+}
+
+.caixa_texto
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 35px 40px;
+
+}

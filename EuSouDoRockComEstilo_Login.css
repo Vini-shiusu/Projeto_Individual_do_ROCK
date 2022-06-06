@@ -95,3 +95,10 @@ input:focus + label
   color: #d60404;
   font-weight: bold;
 }
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
